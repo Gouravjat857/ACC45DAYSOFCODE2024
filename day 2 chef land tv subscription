@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+         int N; // Number of friends
+    int X;
+     cin >> N;
+      cin >> X;
+       int subscriptionsNeeded = (N + 5) / 6;
+       int totalCost = subscriptionsNeeded * X;
+       cout<< totalCost<<endl;
+}
+    return 0;
+}

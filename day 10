@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T; 
+    cin >> T;
+    while (T--) {
+        int N, A;
+        cin >> N >> A;
+        // Calculate the minimum number of masks needed
+        int result = min(A, N - A);
+        cout << result << '\n';
+    }
+    return 0;
+}
